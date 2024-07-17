@@ -49,7 +49,7 @@ jobs:
 
     # 푸쉬
     - name: push
-      uses: as-m/github-push-action@main
+      uses: ad-m/github-push-action@master
       with:
         branch : "main"
         github_token : $

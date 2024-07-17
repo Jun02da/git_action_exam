@@ -12,4 +12,4 @@ for i in title:
     titleList.append(i.text)
 
 df = pd.DataFrame(titleList,columns=["제목"])
-df.to_csv("data.csv",encoding="euc-kr", index=False)
+df.to_csv("data.csv",encoding="utf-8", index=False)

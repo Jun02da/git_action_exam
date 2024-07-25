@@ -7,12 +7,12 @@ name: git_action_exam
 on:
   # 특정시간이 될때마다 실행
   # cron표현식
-  schedule:
-    - cron: '10 * * * *' 
-  # push:
-  #   branches: [ "main" ]
-  # pull_request:
-  #   branches: [ "main" ]
+  #schedule:
+    #- cron: '10 * * * *' 
+   push:
+     branches: [ "main" ]
+   pull_request:
+     branches: [ "main" ]
 
 jobs:
   build:
